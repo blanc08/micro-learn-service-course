@@ -9,6 +9,6 @@ class ImageCourse extends Model
 {
     use HasFactory;
 
-    protected $table = 'images_courses';
+    protected $table = 'image_courses';
     protected $guarded = ['id'];
 }
